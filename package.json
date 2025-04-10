@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "mongodb": "^6.15.0",
+    "mysql2": "^3.14.0",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.14.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/pg": "^8.11.11",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "start": "ts-node-esm src/index.ts",
+    "build": "tsc"
+  }
+}
